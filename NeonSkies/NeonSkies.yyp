@@ -36,7 +36,7 @@
   },
   "name":"NeonSkies",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
     {"id":{"name":"Ballistic1_Attack","path":"sprites/Ballistic1_Attack/Ballistic1_Attack.yy",},},
     {"id":{"name":"Ballistic1_Death","path":"sprites/Ballistic1_Death/Ballistic1_Death.yy",},},
     {"id":{"name":"Ballistic1_Idle","path":"sprites/Ballistic1_Idle/Ballistic1_Idle.yy",},},
@@ -49,11 +49,17 @@
     {"id":{"name":"Robot1_Death","path":"sprites/Robot1_Death/Robot1_Death.yy",},},
     {"id":{"name":"Robot1_Idle","path":"sprites/Robot1_Idle/Robot1_Idle.yy",},},
     {"id":{"name":"Robot1_Walk","path":"sprites/Robot1_Walk/Robot1_Walk.yy",},},
+    {"id":{"name":"Tile1","path":"sprites/Tile1/Tile1.yy",},},
+    {"id":{"name":"Tile2","path":"sprites/Tile2/Tile2.yy",},},
+    {"id":{"name":"Tile3","path":"sprites/Tile3/Tile3.yy",},},
+    {"id":{"name":"TileSet_A","path":"tilesets/TileSet_A/TileSet_A.yy",},},
+    {"id":{"name":"TileSet_B","path":"tilesets/TileSet_B/TileSet_B.yy",},},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

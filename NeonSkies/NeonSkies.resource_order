@@ -29,5 +29,10 @@
     {"name":"Robot1_Attack","order":3,"path":"sprites/Robot1_Attack/Robot1_Attack.yy",},
     {"name":"Robot1_Idle","order":1,"path":"sprites/Robot1_Idle/Robot1_Idle.yy",},
     {"name":"Robot1_Walk","order":2,"path":"sprites/Robot1_Walk/Robot1_Walk.yy",},
+    {"name":"Tile1","order":23,"path":"sprites/Tile1/Tile1.yy",},
+    {"name":"Tile2","order":21,"path":"sprites/Tile2/Tile2.yy",},
+    {"name":"Tile3","order":24,"path":"sprites/Tile3/Tile3.yy",},
+    {"name":"TileSet_B","order":1,"path":"tilesets/TileSet_B/TileSet_B.yy",},
+    {"name":"TileSet3","order":2,"path":"tilesets/TileSet3/TileSet3.yy",},
   ],
 }
