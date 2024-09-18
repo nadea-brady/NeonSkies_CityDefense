@@ -24,6 +24,8 @@
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Sprites/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Background","folderPath":"folders/Sprites/Background.yy","name":"Background","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Tiles","folderPath":"folders/Sprites/Tiles.yy","name":"Tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Towers","folderPath":"folders/Sprites/Towers.yy","name":"Towers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -52,9 +54,9 @@
     {"id":{"name":"Tile1","path":"sprites/Tile1/Tile1.yy",},},
     {"id":{"name":"Tile2","path":"sprites/Tile2/Tile2.yy",},},
     {"id":{"name":"Tile3","path":"sprites/Tile3/Tile3.yy",},},
-    {"id":{"name":"TileSet_A","path":"tilesets/TileSet_A/TileSet_A.yy",},},
-    {"id":{"name":"TileSet_B","path":"tilesets/TileSet_B/TileSet_B.yy",},},
-    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
+    {"id":{"name":"Tile4","path":"sprites/Tile4/Tile4.yy",},},
+    {"id":{"name":"TileSet_Area1","path":"sprites/TileSet_Area1/TileSet_Area1.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -64,5 +66,6 @@
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"texturegroup1","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"texturegroup1","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }
