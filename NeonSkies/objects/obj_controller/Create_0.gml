@@ -1,6 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-draw_self();
-
-//global.tower_selected = true;
+global.tower_dragging = false;

@@ -13,7 +13,7 @@ if (global.tower_dragging) {
     // Check for mouse release to drop the tower
     if (mouse_check_button_released(mb_left)) {
         // Place the tower at the grid position
-        instance_create_layer(grid_x, grid_y, "Instances", obj_tower);
+        instance_create_layer(grid_x + 16, grid_y +16 , "Gameplay_Layer", obj_tower);
 
         // Stop dragging
         global.tower_dragging = false;
