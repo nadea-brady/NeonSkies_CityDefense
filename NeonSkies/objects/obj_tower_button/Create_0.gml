@@ -2,5 +2,5 @@
 
 // You can write your code in this editor
 
-x = 32;
-y = room_height - sprite_height - 32;
+//x = 32;
+//y = room_height - sprite_height - 32;

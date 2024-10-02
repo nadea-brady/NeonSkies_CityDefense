@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controller2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_tower3",
+  "eventList":[],
   "managed":true,
-  "name":"obj_controller2",
+  "name":"obj_tower3",
   "overriddenProperties":[],
   "parent":{
     "name":"Towers",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Land_Rover_Idle",
-    "path":"sprites/Land_Rover_Idle/Land_Rover_Idle.yy",
+    "name":"Shock_Drone_Idle",
+    "path":"sprites/Shock_Drone_Idle/Shock_Drone_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

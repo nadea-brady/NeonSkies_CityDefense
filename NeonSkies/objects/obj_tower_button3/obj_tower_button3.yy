@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tower_button2",
+  "%Name":"obj_tower_button3",
   "eventList":[],
   "managed":true,
-  "name":"obj_tower_button2",
+  "name":"obj_tower_button3",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_button","path":"objects/obj_tower_button/obj_tower_button.yy",},"propertyId":{"name":"tower_to_spawn","path":"objects/obj_tower_button/obj_tower_button.yy",},"resource":{"name":"obj_tower2","path":"objects/obj_tower2/obj_tower2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_tower2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_button","path":"objects/obj_tower_button/obj_tower_button.yy",},"propertyId":{"name":"tower_to_spawn","path":"objects/obj_tower_button/obj_tower_button.yy",},"resource":{"name":"obj_tower3","path":"objects/obj_tower3/obj_tower3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_tower3",},
   ],
   "parent":{
     "name":"Towers",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Land_Rover_Idle",
-    "path":"sprites/Land_Rover_Idle/Land_Rover_Idle.yy",
+    "name":"Shock_Drone_Idle",
+    "path":"sprites/Shock_Drone_Idle/Shock_Drone_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
