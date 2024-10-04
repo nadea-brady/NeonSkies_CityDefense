@@ -11,11 +11,14 @@ if (global.tower_dragging) {
     var grid_y = floor(my / 32) * 32;
 
     // Check for mouse release to drop the tower
-    if (mouse_check_button_released(mb_left)) {
+	if (mouse_check_button_released(mb_left)){
+		if ( mx >= 127 && mx <= 767 && my >= 159 && my <= 351 && !position_meeting(grid_x+16, grid_y+8, [obj_tower1, obj_tower2, obj_tower3, obj_tower4]) ) {
         // Place the tower at the grid position
         instance_create_layer(grid_x + 16, grid_y +16 , "Gameplay_Layer", global.tower_type);
 
-        // Stop dragging
-        global.tower_dragging = false;
+       
     }
+	//stop dragging if within gridlayout
+	global.tower_dragging = false;
+	}
 }
