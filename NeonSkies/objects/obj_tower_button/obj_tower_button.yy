@@ -10,8 +10,8 @@
   "name":"obj_tower_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Towers",
-    "path":"folders/Objects/Towers.yy",
+    "name":"Tower Functionality",
+    "path":"folders/Objects/Towers/Tower Functionality.yy",
   },
   "parentObjectId":null,
   "persistent":false,
