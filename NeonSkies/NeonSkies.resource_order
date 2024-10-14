@@ -25,7 +25,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_controller1","order":2,"path":"objects/obj_controller1/obj_controller1.yy",},
-    {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"obj_robot1","order":1,"path":"objects/obj_robot1/obj_robot1.yy",},
     {"name":"obj_tower_button2","order":1,"path":"objects/obj_tower_button2/obj_tower_button2.yy",},
     {"name":"obj_tower_button3","order":2,"path":"objects/obj_tower_button3/obj_tower_button3.yy",},
     {"name":"obj_tower_button4","order":3,"path":"objects/obj_tower_button4/obj_tower_button4.yy",},

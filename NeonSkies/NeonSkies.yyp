@@ -43,7 +43,7 @@
   "resources":[
     {"id":{"name":"obj_controller1","path":"objects/obj_controller1/obj_controller1.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
-    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_robot1","path":"objects/obj_robot1/obj_robot1.yy",},},
     {"id":{"name":"obj_tower_button","path":"objects/obj_tower_button/obj_tower_button.yy",},},
     {"id":{"name":"obj_tower_button2","path":"objects/obj_tower_button2/obj_tower_button2.yy",},},
     {"id":{"name":"obj_tower_button3","path":"objects/obj_tower_button3/obj_tower_button3.yy",},},
