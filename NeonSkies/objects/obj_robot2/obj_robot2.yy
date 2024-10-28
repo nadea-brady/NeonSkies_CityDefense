@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_robot1",
+  "%Name":"obj_robot2",
   "eventList":[],
   "managed":true,
-  "name":"obj_robot1",
+  "name":"obj_robot2",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"movespeed","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"attack_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"Cyborg1_Attack","path":"sprites/Cyborg1_Attack/Cyborg1_Attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Cyborg1_Attack",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"attack_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"Robot1_Attack","path":"sprites/Robot1_Attack/Robot1_Attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Robot1_Attack",},
   ],
   "parent":{
     "name":"Enemies",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Cyborg1_Walk",
-    "path":"sprites/Cyborg1_Walk/Cyborg1_Walk.yy",
+    "name":"Robot1_Walk",
+    "path":"sprites/Robot1_Walk/Robot1_Walk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

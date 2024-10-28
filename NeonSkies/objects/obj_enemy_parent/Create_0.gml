@@ -3,3 +3,5 @@
 
 image_xscale = -1;
 attack_delay = 0;
+
+walk_sprite = sprite_index;
