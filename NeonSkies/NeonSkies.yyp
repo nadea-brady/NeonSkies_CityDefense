@@ -17,7 +17,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Objects/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Towers","folderPath":"folders/Objects/Towers.yy","name":"Towers","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Tower Functionality","folderPath":"folders/Objects/Towers/Tower Functionality.yy","name":"Tower Functionality","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Tower Button Functionality","folderPath":"folders/Objects/Towers/Tower Button Functionality.yy","name":"Tower Button Functionality","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -43,6 +43,7 @@
   "resources":[
     {"id":{"name":"obj_controller1","path":"objects/obj_controller1/obj_controller1.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
+    {"id":{"name":"obj_levelController","path":"objects/obj_levelController/obj_levelController.yy",},},
     {"id":{"name":"obj_robot1","path":"objects/obj_robot1/obj_robot1.yy",},},
     {"id":{"name":"obj_tower_button","path":"objects/obj_tower_button/obj_tower_button.yy",},},
     {"id":{"name":"obj_tower_button2","path":"objects/obj_tower_button2/obj_tower_button2.yy",},},

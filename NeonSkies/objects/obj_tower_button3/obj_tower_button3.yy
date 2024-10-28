@@ -8,8 +8,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_button","path":"objects/obj_tower_button/obj_tower_button.yy",},"propertyId":{"name":"tower_to_spawn","path":"objects/obj_tower_button/obj_tower_button.yy",},"resource":{"name":"obj_tower3","path":"objects/obj_tower3/obj_tower3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_tower3",},
   ],
   "parent":{
-    "name":"Tower Functionality",
-    "path":"folders/Objects/Towers/Tower Functionality.yy",
+    "name":"Tower Button Functionality",
+    "path":"folders/Objects/Towers/Tower Button Functionality.yy",
   },
   "parentObjectId":{
     "name":"obj_tower_button",

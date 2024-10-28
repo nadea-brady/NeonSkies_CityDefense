@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-image_xscale = -1;
-attack_delay = 0;
+last_spawn_y = 0;
+spawn_cooldown = 60*20;
