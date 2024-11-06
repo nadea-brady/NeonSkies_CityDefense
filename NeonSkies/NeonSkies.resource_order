@@ -7,6 +7,7 @@
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Enemies","order":2,"path":"folders/Objects/Enemies.yy",},
     {"name":"Towers","order":1,"path":"folders/Objects/Towers.yy",},
+    {"name":"Projectile","order":14,"path":"folders/Objects/Towers/Projectile.yy",},
     {"name":"Tower Button Functionality","order":13,"path":"folders/Objects/Towers/Tower Button Functionality.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
