@@ -20,3 +20,6 @@ instance_destroy();
 instance_destroy(other);
 
 }
+// process hurt animation
+if (hurt_animation > 0)
+	hurt_animation -= 0.1;

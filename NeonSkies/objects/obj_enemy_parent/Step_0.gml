@@ -30,3 +30,4 @@ if (x > 127 && !position_meeting(bbox_left - movespeed, y - 16, obj_tower_parent
 	else attack_delay -= 1;
 }
 
+

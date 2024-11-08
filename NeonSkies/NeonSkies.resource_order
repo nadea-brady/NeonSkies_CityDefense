@@ -25,7 +25,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_controller1","order":2,"path":"objects/obj_controller1/obj_controller1.yy",},
+    {"name":"obj_controller","order":2,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_levelController","order":3,"path":"objects/obj_levelController/obj_levelController.yy",},
     {"name":"obj_robot1","order":1,"path":"objects/obj_robot1/obj_robot1.yy",},
     {"name":"obj_robot2","order":2,"path":"objects/obj_robot2/obj_robot2.yy",},
