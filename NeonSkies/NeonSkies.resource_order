@@ -25,10 +25,13 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_ballistic_proj1","order":1,"path":"objects/obj_ballistic_proj1/obj_ballistic_proj1.yy",},
+    {"name":"obj_ballistic_proj2","order":3,"path":"objects/obj_ballistic_proj2/obj_ballistic_proj2.yy",},
     {"name":"obj_controller","order":2,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_levelController","order":3,"path":"objects/obj_levelController/obj_levelController.yy",},
     {"name":"obj_robot1","order":1,"path":"objects/obj_robot1/obj_robot1.yy",},
     {"name":"obj_robot2","order":2,"path":"objects/obj_robot2/obj_robot2.yy",},
+    {"name":"obj_rocket_proj","order":2,"path":"objects/obj_rocket_proj/obj_rocket_proj.yy",},
     {"name":"obj_tower_button2","order":1,"path":"objects/obj_tower_button2/obj_tower_button2.yy",},
     {"name":"obj_tower_button3","order":2,"path":"objects/obj_tower_button3/obj_tower_button3.yy",},
     {"name":"obj_tower_button4","order":3,"path":"objects/obj_tower_button4/obj_tower_button4.yy",},

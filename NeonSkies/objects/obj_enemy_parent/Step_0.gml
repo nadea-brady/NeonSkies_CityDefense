@@ -8,26 +8,29 @@ if (x > 127 && !position_meeting(bbox_left - movespeed, y - 16, obj_tower_parent
 } else {
     // Tower collision handling, switch to appropriate attack animation for each tower
 	var _inst = instance_position(bbox_left - movespeed, y - 16, obj_tower_parent);
-	var _ad = attack_damage;
 	
+	if (_inst != noone)
+	{
+		var _cd = _inst.contact_damage;
 	
-    if (attack_delay <= 0) {
-		sprite_index = attack_sprite;
-		// - attack the tower
-		with (_inst) {
-			hp -= _ad;
-			
-			// hurt animation
-			hurt_animation = 1;
-			
-			// check for tower death
-			if (hp <= 0)
-				instance_destroy();
-		}
+	    if (attack_delay <= 0) {
+			sprite_index = attack_sprite;
 		
-		attack_delay = attack_cooldown;
+			// attack the tower
+			hurt_instance(_inst, attack_damage);
+		
+			// take contact damage
+			hurt_instance(self, _cd);
+		
+			// set cooldown
+			attack_delay = attack_cooldown;
+		}
+		else attack_delay -= 1;
 	}
-	else attack_delay -= 1;
 }
+
+// process hurt animation
+if (hurt_animation > 0)
+	hurt_animation -= 0.1;
 
 

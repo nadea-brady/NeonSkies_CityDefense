@@ -13,6 +13,7 @@ x += proj_speed;
 // Enemy collision handling, switch to appropriate attack animation for each tower
 with (instance_place(x,y,obj_enemy_parent)){
 hp -= other.damage;
+hurt_animation = 1;
 
 if hp <= 0 {
 instance_destroy();
@@ -20,6 +21,3 @@ instance_destroy();
 instance_destroy(other);
 
 }
-// process hurt animation
-if (hurt_animation > 0)
-	hurt_animation -= 0.1;

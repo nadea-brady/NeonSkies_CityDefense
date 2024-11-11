@@ -10,6 +10,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"attack_speed","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"range","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"energy_cost","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"proj_type","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resource":{"name":"obj_ballistic_proj2","path":"objects/obj_ballistic_proj2/obj_ballistic_proj2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_ballistic_proj2",},
   ],
   "parent":{
     "name":"Towers",
