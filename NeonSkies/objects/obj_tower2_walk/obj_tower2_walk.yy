@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ballistic_proj2",
-  "eventList":[],
+  "%Name":"obj_tower2_walk",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_ballistic_proj2",
+  "name":"obj_tower2_walk",
   "overriddenProperties":[],
   "parent":{
-    "name":"Projectile",
-    "path":"folders/Objects/Towers/Projectile.yy",
+    "name":"Towers",
+    "path":"folders/Objects/Towers.yy",
   },
-  "parentObjectId":{
-    "name":"obj_projectile_parent",
-    "path":"objects/obj_projectile_parent/obj_projectile_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Ballistic1_Projectile2",
-    "path":"sprites/Ballistic1_Projectile2/Ballistic1_Projectile2.yy",
+    "name":"Land_Rover_Walk",
+    "path":"sprites/Land_Rover_Walk/Land_Rover_Walk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
