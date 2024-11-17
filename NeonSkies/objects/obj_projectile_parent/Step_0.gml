@@ -10,7 +10,7 @@ if distance <= 0 {
 x += proj_speed;
 
 
-// Enemy collision handling, switch to appropriate attack animation for each tower
+// Checking for Enemy collision handling, switch to appropriate attack animation for each tower
 with (instance_place(x,y,obj_enemy_parent)){
 hp -= other.damage;
 hurt_animation = 1;

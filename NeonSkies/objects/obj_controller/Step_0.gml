@@ -12,7 +12,7 @@ if (global.tower_dragging) {
 
     // Check for mouse release to drop the tower
 	if (mouse_check_button_released(mb_left)){
-		if ( mx >= 127 && mx <= 767 && my >= 159 && my <= 351 && !position_meeting(grid_x+16, grid_y+8, [obj_tower1, obj_tower2, obj_tower3, obj_tower4]) ) {
+		if ( mx >= 127 && mx <= 767 && my >= 159 && my <= 351 && !position_meeting(grid_x+16, grid_y+8, obj_tower_parent)) {
         // Place the tower at the grid position
         instance_create_layer(grid_x + 16, grid_y +16 , "Gameplay_Layer", global.tower_type);
 
