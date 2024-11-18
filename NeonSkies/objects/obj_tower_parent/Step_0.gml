@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // process attack
-if (attack_delay <= 0 && collision_line(x, y, x + range, y, obj_enemy_parent, false, true) != noone ) {
+if (proj_type != noone && attack_delay <= 0 && collision_line(x, y, x + range, y, obj_enemy_parent, false, true) != noone ) {
 	
 	instance_create_layer(x, y, "Gameplay_Layer", proj_type, { damage: 1, distance: range, proj_speed: 2 } );
 	
