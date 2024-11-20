@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Play_Button",
+    "path":"sprites/Play_Button/Play_Button.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
