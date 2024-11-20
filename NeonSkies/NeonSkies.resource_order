@@ -42,6 +42,7 @@
     {"name":"obj_tower2","order":6,"path":"objects/obj_tower2/obj_tower2.yy",},
     {"name":"obj_tower3","order":8,"path":"objects/obj_tower3/obj_tower3.yy",},
     {"name":"obj_tower4","order":11,"path":"objects/obj_tower4/obj_tower4.yy",},
+    {"name":"rm_controls","order":4,"path":"rooms/rm_controls/rm_controls.yy",},
     {"name":"rm_credit","order":3,"path":"rooms/rm_credit/rm_credit.yy",},
     {"name":"rm_menu","order":2,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"Ballistic1_Death","order":2,"path":"sprites/Ballistic1_Death/Ballistic1_Death.yy",},

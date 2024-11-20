@@ -30,18 +30,18 @@ if(keyboard_check_pressed(confirmButt))
 		room_goto(level_1);
 	}
 	
-	if(selected == 1) // Options by default
+	if(selected == 1) //Go to controls/info page
 	{
-		// Go to options room
+		room_goto(rm_controls);
 	}
 
 	
-	if(selected == 2) // Exit by default
+	if(selected == 2) //Go to credits
 	{
 		room_goto(rm_credit);
 	}
 	
-	if(selected == 3)
+	if(selected == 3) //Exit Game
 	{
 		game_end();
 	}
