@@ -38,6 +38,11 @@ if(keyboard_check_pressed(confirmButt))
 	
 	if(selected == 2) // Exit by default
 	{
+		room_goto(rm_credit);
+	}
+	
+	if(selected == 3)
+	{
 		game_end();
 	}
 }

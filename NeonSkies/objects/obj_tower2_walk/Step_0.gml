@@ -10,5 +10,5 @@ if (_instance != noone){
 	instance_destroy(_instance)
 }
 
-if (x > room_width)
+if (x > 766)
 	instance_destroy();

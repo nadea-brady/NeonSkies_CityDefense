@@ -4,8 +4,8 @@
 // Menu element names. This will be what is actually drawn
 menu[0] = "Play";
 menu[1] = "Options";
-//menu[2] = "Stats";
-menu[2] = "Exit";
+menu[2] = "Credits";
+menu[3] = "Exit";
 
 
 // cursorLevitate will be used to keep a variable that
