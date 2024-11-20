@@ -4,8 +4,8 @@
 // Menu element names. This will be what is actually drawn
 menu[0] = "Play";
 menu[1] = "Options";
-menu[2] = "Stats";
-menu[3] = "Exit";
+//menu[2] = "Stats";
+menu[2] = "Exit";
 
 
 // cursorLevitate will be used to keep a variable that
@@ -43,7 +43,7 @@ titleCol = c_white;
 
 
 // Title of your game
-gameTitle = "Your Game";
+gameTitle = "Neon Skies: City Defense";
 
 // Size of the title
 titleSize = 2;
@@ -56,4 +56,4 @@ upButt = vk_up;
 downButt = vk_down;
 
 // Button to confirm menu choice
-confirmButt = vk_space;
+confirmButt = vk_enter;

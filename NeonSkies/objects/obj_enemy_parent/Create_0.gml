@@ -7,3 +7,5 @@ attack_delay = 0;
 walk_sprite = sprite_index;
 
 hurt_animation =0;
+
+mask_index = Ballistic1_Idle;

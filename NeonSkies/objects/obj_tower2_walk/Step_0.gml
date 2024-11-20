@@ -9,3 +9,6 @@ var _instance = instance_position(x, y, obj_enemy_parent);
 if (_instance != noone){	
 	instance_destroy(_instance)
 }
+
+if (x > room_width)
+	instance_destroy();
