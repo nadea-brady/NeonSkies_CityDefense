@@ -33,16 +33,16 @@ spacing = 16;
 
 
 // Color of the menu element when selected
-selectedCol = c_gray;
+selectedCol = c_aqua;
 
 // Color of the menu element when not selected
-notSelectedCol = c_black;
+notSelectedCol = c_white;
 
 // Game title color
-titleCol = c_white;
+titleCol = c_aqua;
 
 
-// Title of your game
+// Title
 gameTitle = "Neon Skies: City Defense";
 
 // Size of the title

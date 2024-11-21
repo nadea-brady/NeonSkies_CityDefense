@@ -15,3 +15,5 @@ function hurt_instance(inst, damage) {
 			instance_destroy(inst);
 	}
 }
+
+global.tower_energy = 0;

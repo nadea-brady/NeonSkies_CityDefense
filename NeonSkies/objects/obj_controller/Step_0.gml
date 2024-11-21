@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 // Check if dragging a tower
+
 if (global.tower_dragging) {
     // Get the mouse position
     var mx = mouse_x;
