@@ -32,6 +32,7 @@
     {"$GMObjectProperty":"v1","%Name":"enemy_type","filters":[],"listItems":[
         "obj_robot1",
         "obj_robot2",
+        "obj_robot3",
       ],"multiselect":true,"name":"enemy_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_robot1","varType":6,},
   ],
   "resourceType":"GMObject",
