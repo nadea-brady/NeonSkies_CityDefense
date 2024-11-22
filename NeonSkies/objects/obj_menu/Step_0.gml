@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+window_enable_borderless_fullscreen(true);
+window_set_fullscreen(true);
 // Oscillate the cursor using sin function
 cursorLevitate = dsin(cursorTime);
 
