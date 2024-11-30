@@ -23,8 +23,8 @@
   },
   "spriteNoExport":false,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texturegroup1",
+    "path":"texturegroups/texturegroup1",
   },
   "tileAnimation":{
     "FrameData":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,],

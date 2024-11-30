@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"MX_Com_City_1_Loop_120BPM_4_4_L28M",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":56.0,
+  "name":"MX_Com_City_1_Loop_120BPM_4_4_L28M",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"MX_Com_City_1_Loop_120BPM_4_4_L28M.wav",
+  "type":0,
+  "volume":1.0,
+}
