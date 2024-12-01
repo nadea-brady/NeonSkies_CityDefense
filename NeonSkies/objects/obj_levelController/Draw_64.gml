@@ -13,6 +13,8 @@ if enemies_left <= 0 && instance_number(obj_enemy_parent) <= 0{
 	
 	
 }
+
+
 if game_over == true{
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);

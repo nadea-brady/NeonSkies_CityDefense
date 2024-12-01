@@ -4,8 +4,8 @@
 // Menu element names. This will be what is actually drawn
 menu[0] = "Play";
 //menu[1] = "Info";
-menu[1] = "Credits";
-menu[2] = "Exit";
+//menu[1] = "Credits";
+menu[1] = "Exit";
 
 
 // cursorLevitate will be used to keep a variable that
@@ -39,7 +39,7 @@ selectedCol = c_aqua;
 notSelectedCol = c_white;
 
 // Game title color
-titleCol = c_aqua;
+titleCol = c_fuchsia;
 
 
 // Title

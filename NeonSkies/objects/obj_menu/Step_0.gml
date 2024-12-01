@@ -30,13 +30,7 @@ if(keyboard_check_pressed(confirmButt))
 		room_goto(level_1);
 	}
 	
-	if(selected == 1) //Go to credits
-	{
-		audio_play_sound(snd_menu,1,false);
-		room_goto(rm_credit);
-	}
-	
-	if(selected == 2) //Exit Game
+	if(selected == 1) //Exit Game
 	{
 		audio_play_sound(snd_menu,1,false);
 		game_end();
