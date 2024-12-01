@@ -20,7 +20,7 @@ for(i = 0; i < array_length(menu); i++)
 		draw_set_color(notSelectedCol);
 	}
 	
-	// Draw the text
+	// Drawing the text
 	draw_text(x + 6*_scale,y+i*spacing*_scale, menu[i]);	
 }
 // Getting width of cursor to separate it a bit from the menu
@@ -29,7 +29,6 @@ var cursWidth = sprite_get_width(s_cursor)*_scale;
 // Draw cursor at where it should be, but half its width 
 // to the left of the menu
 draw_sprite_ext(s_cursor, -1, x + cursorLevitate - cursWidth/2, y + selectLerp*spacing*_scale, _scale, _scale, 0, c_white, 1);
-
 // Draw game title (at 10% of screen width and height, hence 0.1)
 draw_set_color(titleCol);
 draw_set_halign(fa_center);

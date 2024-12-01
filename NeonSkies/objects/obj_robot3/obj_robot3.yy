@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_robot3",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"attack_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"Cyborg2_Attack","path":"sprites/Cyborg2_Attack/Cyborg2_Attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Cyborg2_Attack",},
+  ],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",

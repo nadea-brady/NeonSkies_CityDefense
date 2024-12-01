@@ -16,6 +16,7 @@ hp -= other.damage;
 hurt_animation = 1;
 
 if hp <= 0 {
+audio_play_sound(snd_enemy_defeated,1,false);
 instance_destroy();
 }
 instance_destroy(other);

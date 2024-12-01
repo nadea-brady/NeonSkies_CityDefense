@@ -7,6 +7,8 @@ mask_index = Ballistic1_Idle;
 
 if(energy_cost <= global.tower_energy){
 	global.tower_energy -= energy_cost;
+	audio_play_sound(snd_tower_place,0,false);
 }else{
+	audio_play_sound(snd_no_energy,0,false);
 	instance_destroy();
 }

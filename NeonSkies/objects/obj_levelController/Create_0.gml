@@ -4,3 +4,5 @@ last_spawn_y = 0;
 spawn_cooldown = 60*12;
 starting_energy = 100;
 global.tower_energy = starting_energy
+
+game_over = false;

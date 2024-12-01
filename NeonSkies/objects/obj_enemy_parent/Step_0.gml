@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Check if the enemy has reached the left side of the grid (x > 127)
-if (x > 127 && !position_meeting(bbox_left - movespeed, y - 16, obj_tower_parent)) {
+if (x > 100 && !position_meeting(bbox_left - movespeed, y - 16, obj_tower_parent)) {
     sprite_index = walk_sprite;
 	x -= movespeed;// Move left, speed can be customized for child objects in variable definitions
 } else {

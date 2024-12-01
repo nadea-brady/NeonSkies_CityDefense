@@ -12,9 +12,32 @@ if (spawn_cooldown <= 0) {
 	}
 	
 	spawn_cooldown = 60+irandom(60);
-} else if enemies_left <= 0 && instance_number(obj_enemy_parent) <= 0 && keyboard_check_pressed(vk_enter){
+	
+//level win conditions; once all enemies have been eliminated, the user is prompted to go to the following level
+} else if enemies_left <= 0 && instance_number(obj_enemy_parent) <= 0 && keyboard_check_pressed(vk_enter) && game_over == false{
+	audio_play_sound(snd_level_cleared,0,false);
 	room_goto(level_2);
+	
+	
+} else if enemies_left <=0 && instance_number(obj_enemy_parent) <= 0 && room == level_2 && keyboard_check(vk_enter) && game_over == false{
+	audio_play_sound(snd_level_cleared,0,false);
+	room_goto(level_3);
+	
+} else if enemies_left <= 0&& instance_number(obj_enemy_parent) <= 0 && room == level_3 && keyboard_check(vk_enter) && game_over == false{
+	audio_play_sound(snd_level_cleared,0,false);
+	room_goto(rm_credit);
+	
+}else if game_over == true && keyboard_check(vk_enter){
+	game_restart();
+	
+}else spawn_cooldown -= 1;
 
-} else spawn_cooldown -= 1;
-
-global.tower_energy += 1/60; 
+with(obj_enemy_parent){
+if x <= 126 {
+	if other.game_over == false
+		audio_play_sound(snd_level_fail,0,false)
+	other.game_over = true
+	}
+}
+//auto generate 2 energy points per second
+global.tower_energy += 2/60; 
