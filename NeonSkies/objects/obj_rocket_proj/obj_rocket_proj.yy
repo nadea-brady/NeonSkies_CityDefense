@@ -4,7 +4,10 @@
   "eventList":[],
   "managed":true,
   "name":"obj_rocket_proj",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_projectile_parent","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_projectile_parent","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},"propertyId":{"name":"proj_speed","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+  ],
   "parent":{
     "name":"Projectile",
     "path":"folders/Objects/Towers/Projectile.yy",
