@@ -48,7 +48,6 @@
     {"name":"obj_tower5","order":16,"path":"objects/obj_tower5/obj_tower5.yy",},
     {"name":"level_2","order":5,"path":"rooms/level_2/level_2.yy",},
     {"name":"level_3","order":6,"path":"rooms/level_3/level_3.yy",},
-    {"name":"rm_credit","order":3,"path":"rooms/rm_credit/rm_credit.yy",},
     {"name":"rm_menu","order":2,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"Laser_1_","order":3,"path":"sounds/Laser_1_/Laser_1_.yy",},
     {"name":"Laser_3","order":15,"path":"sounds/Laser_3/Laser_3.yy",},
