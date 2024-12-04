@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+draw_set_font(fnt_monogram);
+draw_set_color(c_black);
 draw_text_transformed(10,10,"energy: " + string(round(global.tower_energy)),0.5,0.5,0);
 draw_text_transformed(10,35,"enemies left: " + string(enemies_left),0.5,0.5,0);
+draw_set_color(c_white);
 
 if enemies_left <= 0 && instance_number(obj_enemy_parent) <= 0{
 	draw_set_halign(fa_center);
